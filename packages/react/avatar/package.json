@@ -1,0 +1,34 @@
+{
+    "name": "@nimbus/react-card",
+    "version": "0.0.1",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist",
+      "README.md"
+    ],
+    "sideEffects": false,
+    "scripts": {
+      "clean": "rm -rf dist",
+      "version": "yarn version"
+    },
+    "dependencies": {
+      "@@nimbus/react-card": "workspace:*"
+    },
+    "peerDependencies": {
+      "react": "^16.8 || ^17.0"
+    },
+    "homepage": "https://nimbus/primitives",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nimbus/primitives.git"
+    },
+    "bugs": {
+      "url": "https://github.com/nimbus/primitives/issues"
+    },
+    "stableVersion": "0.1.0"
+  }
+  

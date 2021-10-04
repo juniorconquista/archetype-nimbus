@@ -16,7 +16,7 @@
       "version": "yarn version"
     },
     "dependencies": {
-      "@@nimbus/react-card": "workspace:*"
+      "@nimbus/react-card": "workspace:*"
     },
     "peerDependencies": {
       "react": "^16.8 || ^17.0"

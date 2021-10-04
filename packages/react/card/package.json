@@ -16,7 +16,7 @@
       "version": "yarn version"
     },
     "dependencies": {
-      "@@nimbus/react-avatar": "workspace:*"
+      "@nimbus/react-avatar": "workspace:*"
     },
     "peerDependencies": {
       "react": "^16.8 || ^17.0"

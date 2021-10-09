@@ -1,5 +1,5 @@
 {
-    "name": "@nimbus/react-card",
+    "name": "@nimbus/react-button",
     "version": "0.0.1",
     "license": "MIT",
     "source": "src/index.ts",
@@ -16,7 +16,7 @@
       "version": "yarn version"
     },
     "dependencies": {
-      "@nimbus/react-card": "workspace:*"
+      "@nimbus/react-button": "workspace:*"
     },
     "peerDependencies": {
       "react": "^16.8 || ^17.0"

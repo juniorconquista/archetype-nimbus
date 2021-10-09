@@ -1,7 +1,7 @@
 import { styled } from '../../../../stitches.config'
 
 const variants = {
-    backgroundColor: '$color-background',
+    backgroundColor: '$color-white',
     padding: '$space-x-small',
     borderWidth: '$border-width-xx-small',
     borderRadius: '$radii-x-small',

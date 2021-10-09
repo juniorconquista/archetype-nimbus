@@ -4,7 +4,7 @@ import { IButton } from './button.types';
 import { Styling } from './button.variants';
 
 const Button: React.FC<IButton>  = ({ children}) => (
-  <Styling weight="bold">
+  <Styling appearance="primary">
     {children}
   </Styling>
 );

@@ -1,0 +1,39 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yalc.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Node Modules
+
+**/node_modules/
+
+**/.yalc/
+
+# Parcel cache and distribution folders
+
+.cache/
+
+dist/
+**/.DS_Store
+packages/stratus/.lighthouseci/*
+.dockerignore.lock
+packages/cirrus/.env
+
+# IDES AND ENVIRONMENTS
+.env
+
+
+# cypress 
+cypress/videos
+cypress/screenshots
+.nyc_output

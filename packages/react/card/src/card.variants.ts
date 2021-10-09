@@ -1,6 +1,5 @@
 import { styled } from '../../../../stitches.config'
 
-
 const variants = {
     backgroundColor: '$color-background',
     padding: '$space-x-small',

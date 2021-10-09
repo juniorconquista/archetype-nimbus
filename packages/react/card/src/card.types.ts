@@ -7,7 +7,5 @@ export interface ICardComponents {
 }
 
 export interface ICard {
-  className?: string;
-  //@ts-ignore
   children?: React.ReactNode | React.ReactNode[];
 }

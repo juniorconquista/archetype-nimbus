@@ -32,9 +32,6 @@ export const { styled, css } = createStitches({
       lineHeights: {
         'line-height-medium': spacing.medium.value
       }
-    },
-    utils: {
-      darken: (value: string) => 'red'
-    },
+    }
 
 });

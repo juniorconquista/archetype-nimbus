@@ -42,8 +42,5 @@ export const { styled, css } = createStitches({
   media: {
     tablet: '(min-width: 672px)',
     desktop: '(min-width: 1024px)'
-  },
-  utils: {
-    darken: (value: string) => 'red'
   }
 });

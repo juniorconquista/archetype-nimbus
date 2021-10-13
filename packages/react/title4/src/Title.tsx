@@ -4,7 +4,7 @@ import { ITitle } from './title.types';
 import { Styling } from './title.variants';
 
 const Title: React.FC<ITitle>  = ({ children}) => (
-  <Styling>
+  <Styling type="h3">
     {children}
   </Styling>
 );

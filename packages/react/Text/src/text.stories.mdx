@@ -1,0 +1,21 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { withKnobs } from '@storybook/addon-knobs';
+import { withA11y } from '@storybook/addon-a11y';
+import Text from './Text';
+
+<Meta title="Composite components/Text" component={Text} />
+
+# Text
+
+<Preview>
+  <Story name="default" parameters={{ decorators: [withKnobs, withA11y] }}>
+    <Text>lorem ipsum</Text>
+    <Text appearance="primary">lorem</Text>
+    <Text appearance="primary" background>
+      ipsum
+    </Text>
+    <Text appearance="default" background>
+      ipsum
+    </Text>
+  </Story>
+</Preview>

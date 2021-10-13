@@ -21,7 +21,9 @@ export const { styled, css } = createStitches({
       'color-white': color.white.value,
       'color-default': color.grey[25].value,
       'color-secondary': color.blue['dark-pure'].value,
-      'color-primary-pure': color.blue['primary-pure'].value
+      'color-primary-light': color.blue['primary-light'].value,
+      'color-primary-pure': color.blue['primary-pure'].value,
+      'color-grey-0': color.grey['0'].value
     },
     fonts: {
       'font-base': font.family.value

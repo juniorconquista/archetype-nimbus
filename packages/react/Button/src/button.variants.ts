@@ -13,6 +13,7 @@ const variants = {
     cursor: 'pointer',
     display: 'inline-flex',
     textAlign: 'center',
+    margin: '8px 4px 0px',
     variants: {
         appearance: {
             default: {

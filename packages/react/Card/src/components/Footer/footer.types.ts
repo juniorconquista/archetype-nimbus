@@ -1,5 +1,1 @@
-export interface IFooter {
-  className?: string;
-  primaryButton?: string;
-  secondaryButton?: string;
-}
+export interface IFooter {}

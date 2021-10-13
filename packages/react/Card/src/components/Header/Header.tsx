@@ -1,12 +1,12 @@
 import React from 'react';
-//@ts-ignore
-import { Title } from '@tiendanube/components';
+
+import Title from '../../../../Title/src/Title'
 
 import { IHeader } from './header.types';
-import './header.styled.ts';
+
 
 const Header: React.FC<IHeader> = ({ title, children}) => (
-  <div className="card--header__content">
+  <div>
     {title && <Title type="h3">{title}</Title>}
     {children}
   </div>

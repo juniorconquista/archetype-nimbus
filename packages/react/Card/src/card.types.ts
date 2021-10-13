@@ -1,4 +1,8 @@
-import { Header, Body, Footer } from './components';
+import { 
+  Header,
+  Body,
+  Footer 
+} from './components';
 
 export interface ICardComponents {
   Header: typeof Header;
